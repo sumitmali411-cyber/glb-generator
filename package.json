@@ -1,0 +1,21 @@
+{
+  "name": "glb-generator",
+  "version": "1.0.0",
+  "description": "Procedural GLB car model generator using Three.js",
+  "type": "module",
+  "bin": {
+    "glb-gen": "./src/cli.js"
+  },
+  "scripts": {
+    "generate": "node src/cli.js",
+    "generate:all": "node src/cli.js --all",
+    "preview": "node src/preview-server.js"
+  },
+  "dependencies": {
+    "three": "^0.171.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  }
+}
